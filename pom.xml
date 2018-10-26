@@ -8,6 +8,12 @@
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
 
+	<distributionManagement>
+		 <repository>
+      <id>jpet-releases</id>
+      <url>http://localhost:8081/repository/jpet-releases/</url>
+    </repository>
+		</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
